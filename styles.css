@@ -1,0 +1,144 @@
+body {
+  position: relative;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field {
+  background-color: white;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  /*outline: 2px solid red;*/
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  border: 4px solid rgba(0, 0, 0, 0.5);
+}
+
+#scoreDiv {
+  position: absolute;
+  left: 125px;
+  top: 100px;
+  height: 100px;
+  width: 50px;
+  color: black;
+  font-family: "DejaVu Sans Mono", monospace;
+  font-variant-numeric: normal;
+  text-align: center;
+  font-size: 50px;
+  line-height: 100px;
+}
+
+#lose {
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: black;
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 20px;
+}
+
+#tap {
+  position: absolute;
+  left: 80px;
+  top: 140px;
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: black;
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 20px;
+}
+
+#finalScore {
+  position: absolute;
+  left: 80px;
+  top: 175px;
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: black;
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 20px;
+}
+
+@keyframes disappearance {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes firstappearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes totaldis {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes empAnim {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes loseApp {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes multiApp {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
